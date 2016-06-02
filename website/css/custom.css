@@ -1,18 +1,60 @@
 body {
-  padding-top: 70px;
   padding-bottom: 30px;
+  background-color: #000;
+  color: #999;
 }
 
-.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+.intro-bg-image {
+  background-image: url('img/intro_bg.png');
+  background-color: #131313;
+  height: 100vh;
+  width: 100vw;
 }
 
-.theme-showcase > p > .btn {
-  margin: 5px 0;
+.intro-bg-filter {
+  height: 100vh;
+  width: 100vw;
+  background-color: #33000000;
 }
 
-.theme-showcase .navbar .container {
-  width: auto;
+.intro-text-container {
+
+}
+
+.section {
+  background-color: #444;
+  min-height: 300px;
+  width: 100vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.data-container {
+  width: 100vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.separator {
+  height: 10vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+.footer {
+
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
