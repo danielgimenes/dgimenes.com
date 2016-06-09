@@ -141,6 +141,11 @@ p {
   height: 32px;
 }
 
+.btn-primary {
+  background: #f7ad00;
+  color: #1d2022;
+}
+
 .project-icons-container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -185,9 +190,30 @@ p {
   float: right;
 }
 
+.check-also-item-comment {
+  color: #666;
+}
+
+.get-in-touch-text {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .footer {
 }
 
 .footer-title {
   font-size: 26px;
+}
+
+.footer-block {
+  position: relative;
+  height: 180px;
+}
+
+.copyright-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
