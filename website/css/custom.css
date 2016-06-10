@@ -122,6 +122,15 @@ p {
   padding-bottom: 50px;
 }
 
+.title-detail {
+  height: 4px;
+  width: 100px;
+  background-color: #f7ad00;
+  top: 76px;
+  position: relative;
+  margin: 0 auto 0 auto
+}
+
 .separator {
   height: 10vh;
   width: 100vw;
@@ -198,6 +207,10 @@ p {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.circle-button {
+  width: 12vw;
 }
 
 .footer {
