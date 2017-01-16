@@ -30,9 +30,9 @@ body {
 
 .intro-text-container {
   float: right;
-  margin-right: 28vw;
+  margin-right: 520px;
   text-align: right;
-  margin-top: 35vh;
+  margin-top: 38vh;
 }
 
 .intro-text-vocative {
@@ -113,8 +113,8 @@ p {
 .section {
   background-color: #1d2022;
   min-height: 300px;
-  width: 100vw;
-  padding: 10vh 20px 10vh 20px;
+  width: 100%;
+  padding: 81px 20px;
 }
 
 .title-box {
@@ -122,7 +122,16 @@ p {
   padding-bottom: 50px;
 }
 
-.title-detail {
+.title-detail-recent-projects {
+  height: 4px;
+  width: 100px;
+  background-color: #f7ad00;
+  top: 76px;
+  position: relative;
+  margin: 0 auto 0 auto
+}
+
+.title-detail-get-in-touch {
   height: 4px;
   width: 100px;
   background-color: #f7ad00;
@@ -132,8 +141,8 @@ p {
 }
 
 .separator {
-  height: 10vh;
-  width: 100vw;
+  height: 61px;
+  width: 100%;
   background-color: transparent;
 }
 
@@ -152,6 +161,7 @@ p {
 
 .btn-primary {
   background: #f7ad00;
+  border-color: #ffbe22;
   color: #1d2022;
 }
 
@@ -190,7 +200,6 @@ p {
 }
 
 .github-button {
-  float: right;
 }
 
 .check-also-item-comment {
@@ -203,12 +212,20 @@ p {
   margin-left: auto;
 }
 
+.get-in-touch-text-spacer {
+  height: 136px;
+}
+
+.get-in-touch-footer-spacer {
+  height: 90px;
+}
+
 .circle-button {
   width: 142px;
 }
 
 .footer {
-  padding-top: 42px;
+  padding-top: 16px;
 }
 
 .footer-title {
@@ -216,8 +233,8 @@ p {
 }
 
 .copyright-text {
-  padding-top: 126px;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 .nav-tabs {
@@ -249,4 +266,85 @@ p {
 .recent-projects-nav-tabs {
   width: 800px;
   text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title-box {
+    padding-bottom: 20px;
+  }
+
+  .section {
+    padding: 40px 20px;
+  }
+
+  .separator {
+    height: 20px;
+  }
+
+  .my-pic {
+    float: none;
+    position: relative;;
+    top: 0px;
+    left: 0px;
+    padding: 20px 0 0 20px;
+  }
+
+  .feature-block-icon {
+    margin-top: 20px;
+  }
+
+  .title-detail-recent-projects {
+    top: 108px;
+  }
+
+  .title-detail-get-in-touch {
+    top: 76px;
+  }
+
+  .intro-text-container {
+    margin-right: 80px;
+  }
+
+  .intro-text-vocative {
+    font-size: 32px;
+  }
+
+  .intro-text-name {
+    font-size: 42px;
+  }
+
+  .intro-text-title {
+    font-size: 16px;
+  }
+
+  .android-icon {
+    vertical-align: 2px;
+    fill: #f00;
+  }
+
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .circle-button {
+    width: 80px;
+    margin: 30px 10px 0 10px;
+  }
+
+  .get-in-touch-text-spacer {
+    height: 56px;
+  }
+
+  .get-in-touch-footer-spacer {
+    height: 20px;
+  }
+
+  .copyright-text {
+    padding-bottom: 0;
+  }
+
+  .footer {
+    padding-top: 10px;
+  }
 }
