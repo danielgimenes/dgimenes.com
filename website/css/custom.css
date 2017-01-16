@@ -232,6 +232,10 @@ p {
   font-size: 26px;
 }
 
+.who-am-i-spacer {
+  height: 90px;
+}
+
 .copyright-text {
   text-align: center;
   padding-bottom: 80px;
@@ -268,6 +272,13 @@ p {
   text-align: center;
 }
 
+.SHOW-desktop-recent-projects {
+  display: block;
+}
+
+.SHOW-mobile-recent-projects {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .title-box {
@@ -288,10 +299,6 @@ p {
     top: 0px;
     left: 0px;
     padding: 20px 0 0 20px;
-  }
-
-  .feature-block-icon {
-    margin-top: 20px;
   }
 
   .title-detail-recent-projects {
@@ -318,11 +325,6 @@ p {
     font-size: 16px;
   }
 
-  .android-icon {
-    vertical-align: 2px;
-    fill: #f00;
-  }
-
   .footer-title {
     font-size: 20px;
   }
@@ -346,5 +348,29 @@ p {
 
   .footer {
     padding-top: 10px;
+  }
+
+  .feature-description {
+    margin-bottom: 40px;
+  }
+
+  .who-am-i-spacer {
+    height: 34px;
+  }
+
+  .SHOW-desktop-recent-projects {
+    display: none;
+  }
+
+  .SHOW-mobile-recent-projects {
+    display: block;
+  }
+
+  .recent-projects-spacer {
+    height: 48px;
+  }
+
+  .project-icon {
+    margin: 20px 0;
   }
 }
