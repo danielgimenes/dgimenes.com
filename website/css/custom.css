@@ -179,6 +179,7 @@ p {
   color: #f7ad00;
   letter-spacing: 1px;
   padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .project-description {
