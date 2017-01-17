@@ -286,6 +286,16 @@ p {
   display: none;
 }
 
+.down-arrow-container {
+  position: absolute;
+  top: 90vh;
+  left: calc(50vw - 20px);
+}
+
+.down-arrow {
+  width: 40px;
+}
+
 @media screen and (max-width: 768px) {
   .title-box {
     padding-bottom: 20px;

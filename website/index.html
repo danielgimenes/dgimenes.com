@@ -21,6 +21,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+			  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+			  crossorigin="anonymous">
+    </script>
   </head>
   <body role="document">
     <div class="intro-container">
@@ -32,11 +36,14 @@
           <p class="intro-text-title">Android Developer <img class="android-icon" src="img/android_icon.svg"></p>
         </div>
       </div>
+      <div class="down-arrow-container">
+        <img id="downarrow" src="img/down_arrow2.png" class="down-arrow"/>
+      </div>
     </div>
 
     <div class="separator"></div>
 
-    <div class="section">
+    <div class="section panel" id="who-am-i-section">
       <div class="container">
         <div class="title-box">
           <h1>Who am I</h1>
@@ -313,6 +320,15 @@
       </div>
     </div>
 
+    <script>
+      $('#downarrow').on('click', function(e){
+        e.preventDefault();
+        $('html, body').stop().animate({
+           scrollTop: $('#who-am-i-section').offset().top
+        }, 1000);
+      });
+    </script>
+
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -322,7 +338,6 @@
 
       ga('create', 'UA-55355988-3', 'auto');
       ga('send', 'pageview');
-
     </script>
 
     <!-- Bootstrap core JavaScript
