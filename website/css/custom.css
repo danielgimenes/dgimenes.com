@@ -14,7 +14,7 @@ body {
   background-image: url('../img/intro_bg.png');
   background-color: #0a0a0a;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -311,7 +311,7 @@ p {
 
   .my-pic {
     float: none;
-    position: relative;;
+    position: relative;
     top: 0px;
     left: 0px;
     padding: 20px 0 0 20px;
@@ -327,6 +327,7 @@ p {
 
   .intro-text-container {
     margin-right: 80px;
+    padding-left: 10px;
   }
 
   .intro-text-vocative {
@@ -388,5 +389,9 @@ p {
 
   .project-icon {
     margin: 20px 0;
+  }
+
+  .intro-bg-image {
+    background-position: center;
   }
 }
